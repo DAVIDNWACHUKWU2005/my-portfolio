@@ -35,6 +35,9 @@ a {
     display: flex;
     place-items: center;
 }
+.text-align-right{
+float: right; 
+}
 
 .flex-between {
     justify-content: space-between;
@@ -47,6 +50,7 @@ a {
 
 .flex-center {
     justify-content: center;
+    height: 100svh;
 }
 
 .gap-20 {
@@ -99,4 +103,14 @@ color: #EEEEEE;
 .my-name{
     font-size: 80px;
     color: #EEEEEE;
+}
+.paragraph{
+width: 300px;
+}
+.text-header{
+    font-size: 40px;
+}
+.about-me{
+    background-color: #EEEEEE;
+    background-size: contain;
 }
