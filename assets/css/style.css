@@ -6,20 +6,21 @@
     --app-font-color:#98DED9;
     --app-large-font-color:#EEEEEE;
     --app-medium-font-color:#508C9B;
-    --app-section-background-color :#78B7D0
+    --app-section-background-color :#78B7D0;
+    --app--midnight-blue-to-black: linear-gradient( to top, midnightblue, black);
 
 }
 
 .container {
     width: min(100% - 30px, 1080px);
     margin-inline: auto;
-  padding-top: 5svh;
+    padding-top: 5svh;
 }
+
 
 body {
      font-family: "Raleway", sans-serif;
-    background-color: var(--app-background-body);
-    margin: 0;
+    background: var(--app--midnight-blue-to-black);
     padding: 0;
     overflow-x: hidden; 
 }
@@ -71,4 +72,31 @@ a {
 }
 .hidden{
     display: none;
+}
+
+.nav-links{
+  font-size: larger;
+}
+
+li p{
+    color: #EEEEEE;
+    transition: ease-in-out 0.3s;
+}
+li p:hover{
+    color:var(--app-font-color);
+}
+.hero-banner{
+    padding: 10svh 0;
+}
+.intro{
+    font-size: 20px;
+    color: #EEEEEE;
+}
+.occupation{
+font-size: larger;
+color: #EEEEEE;
+}
+.my-name{
+    font-size: 80px;
+    color: #EEEEEE;
 }
