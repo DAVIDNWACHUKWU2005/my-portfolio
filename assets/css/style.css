@@ -107,19 +107,39 @@ li p:hover{
 }
 .occupation{
 font-size: larger;
-color: #EEEEEE;
+color: #ffa500;
+margin-bottom: 5svh;
 }
 .my-name{
     font-size: 80px;
     color: #EEEEEE;
 }
 .paragraph{
-width: 300px;
 color: #EEEEEE;
+text-align: center;
+padding: 40px 20px;
 }
 .text-header{
     font-size: 40px;
     margin-top: 5svh;
-    color: #EEEEEE;
+    color: orange;
+    text-align: center;
 
+}
+.resume-button {
+    background-color: #021526;
+    color: #508C9B;
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.fa-github{
+    color:#ffa500;
+    font-size: 40px;
+  align-items: center;
+}
+.projects{
+    text-align: center;
 }
